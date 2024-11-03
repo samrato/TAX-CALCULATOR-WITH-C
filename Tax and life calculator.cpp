@@ -2,10 +2,11 @@
 Adjusted Gross Income (income after deductions).
 In addition, one of the tax credits (which offsets tax liability) tax payers can take is the
 child tax credit. The rules are as follows:
-• If the income is $110,000 or more, they cannot claim a credit (the credit is $0)
-• Each child is worth a $1,000 credit, however at most $3,000 can be claimed
-• The credit is not refundable: if the credit results in a negative tax liability, the tax
+â€¢ If the income is $110,000 or more, they cannot claim a credit (the credit is $0)
+â€¢ Each child is worth a $1,000 credit, however at most $3,000 can be claimed
+â€¢ The credit is not refundable: if the credit results in a negative tax liability, the tax
 liability is simply $0*/
+
 
 
 #include<stdio.h>
@@ -99,13 +100,20 @@ double income_tax_in_dollars=total_income_tax/147.07;
 
 
 //the finsl output from the user	              
-	           	printf("The credit for you is3. %lf\n",credit);
-                printf("The income tax for you is3. %lf\n",income_tax);
-        		printf("The total income tax to be charged is 3.%lf\n",total_income_tax);
-        		printf("HELLO %s  WELCOME BACK AGAIN TO OUR COMPANY WE VALUE YOUR INTEREST\n",name);
-        		printf("\n");
-        		printf("THE CHANGING RATES OF YOUR INCOME TAX IS AS FOLLOWS.....\n");
-        		printf("\n");
+	           	
+	printf("The credit for you is3. %lf\n",credit);
+              
+	printf("The income tax for you is3. %lf\n",income_tax);
+        		
+	printf("The total income tax to be charged is 3.%lf\n",total_income_tax);
+        		
+	printf("HELLO %s  WELCOME BACK AGAIN TO OUR COMPANY WE VALUE YOUR INTEREST\n",name);
+        		
+	printf("\n");
+        		
+	printf("THE CHANGING RATES OF YOUR INCOME TAX IS AS FOLLOWS.....\n");
+        		
+	printf("\n");
         		
 // output of changing rate
 	printf("Your income tax in pounds is 3.  %lf  pounds \n",income_in_pound);
