@@ -26,7 +26,7 @@ int main (){
 	//output
 	double income_tax;
 	//users input prompt
-	printf("Hello our dear customer enter your full name!?\n ");
+	printf("Hello our dear customer enter your full name please!?\n ");
 	scanf("%s",&name);
 	printf("what is your gender!?\n ");
 	scanf("%s",&gender);
